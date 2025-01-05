@@ -1,4 +1,4 @@
-FROM fedora-toolbox:41
+FROM registry.fedoraproject.org/fedora-toolbox:41
 
 
 RUN sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
