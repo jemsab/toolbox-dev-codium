@@ -6,5 +6,5 @@ RUN printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\n
 
 RUN dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release -y
 
-RUN dnf upgrade -y && dnf install codium podman htop git cargo rust-src golang neovim java-21-openjdk-devel zed -y
+RUN dnf upgrade -y && dnf install bat codium podman htop git cargo rust-src golang neovim java-21-openjdk-devel zed -y
 
